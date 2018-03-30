@@ -1,0 +1,1081 @@
+[ 2018-03-19T23:36:24+08:00 ] ::1 /tpshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0512s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011006s ]
+
+[ 2018-03-19T23:37:05+08:00 ] ::1 /tpshop/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2018-03-19T23:37:06+08:00 ] ::1 /tpshop/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2018-03-19T23:39:02+08:00 ] ::1 /tpshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2018-03-19T23:42:12+08:00 ] ::1 /tpshop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2018-03-19T23:42:20+08:00 ] ::1 /tpshop/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2018-03-19T23:44:25+08:00 ] ::1 /tpshop/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2018-03-19T23:45:48+08:00 ] ::1 /tpshop/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2018-03-19T23:45:48+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0006s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:48+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0006s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:48+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0006s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0009s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0009s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0009s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/ad.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/holiday.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/scenic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+
+ ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/sanguo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-03-19T23:45:49+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lottery.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/taohua.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/wulin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hot1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/recommend1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/recommend2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/recommend3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/new2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/new1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/guess3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/new3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/guess2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/guess1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/viewsonic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/notebook.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/thinkpad%20e420.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/acer4739.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hpG4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lh531.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/qinghuax2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/dell.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/acer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hp.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/fujitsu.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lenove.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/dlink.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/seagate.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/samsung.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/intel.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/canon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/samsung6800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-03-19T23:45:50+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0009s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0012s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/index_slide6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/ad.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/holiday.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/scenic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2018-03-19T23:45:52+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lottery.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/sanguo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/taohua.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/wulin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/crazy5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hot1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hot2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hot3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/recommend1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/recommend2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/recommend3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/new1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/new2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/new3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/guess1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/guess2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/guess3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/viewsonic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/samsung.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/notebook.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hpG4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/thinkpad%20e420.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/acer4739.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/samsung6800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/dell.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/fujitsu.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/style/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lh531.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lenove.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/samsung.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0013s ]
+ERR: 非法操作:tpshop
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/qinghuax2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003021s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/seagate.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/dlink.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/canon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hp.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014508s ]
+
+
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/hpG4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/intel.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/acer4739.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/thinkpad%20e420.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/samsung6800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002476s ]
+
+[ 2018-03-19T23:45:53+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/lh531.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+
+[ 2018-03-19T23:45:54+08:00 ] ::1 /tpshop/index.php/home/index/tpshop/Public/Home/images/acer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-03-19T23:46:05+08:00 ] ::1 /tpshop/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-03-19T23:46:35+08:00 ] ::1 /tpshop/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE ( is_show=1 ) ORDER BY sort desc,cate_id asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-03-19T23:46:36+08:00 ] ::1 /tpshop/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2018-03-19T23:46:39+08:00 ] ::1 /tpshop/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SELECT * FROM `tp_goods_category` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+

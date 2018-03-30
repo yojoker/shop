@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>添加权限</title>
+    <link href="__CSS__/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="__JS__/jquery.js"></script>
+    <style>
+    .son_info{ display: none; }
+    /* 设置单词首字母大写 IE8以下不兼容 */
+    .controller{ text-transform: capitalize; }
+    </style>
+</head>
+
+<body>
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('Index/index')}" target="_top">首页</a></li>
+            <li><a href="{:U('Auth/index')}">权限管理</a></li>
+            <li>添加</li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>基本信息</span></div>
+        <form action="{:U('Auth/add')}" method="post">
+            <ul class="forminfo">
+                <li>
+                    <label>权限名称</label>
+                    <input name="auth_name" placeholder="请输入权限名称" type="text" class="dfinput" /></li>
+                <li>
+                    <label>顶级权限</label>
+                    <select id="auth_pid" name="auth_pid" class="dfinput">
+                        <option value="0">作为顶级</option>
+                        <foreach name="topAuth" item="top">
+                        <option value="{$top['auth_id']}">{$top['auth_name']}</option>
+                        </foreach>
+                    </select>
+                    <i></i>
+                </li>
+                <li>
+                    <label>菜单显示</label>
+                    <select name="is_menu" class="dfinput">
+                        <option value="0">否</option>
+                        <option value="1">是</option>
+                        
+                    </select>
+                    <i></i>
+                </li>
+                <li class="son_info">
+                    <label>控制器名称</label>
+                    <input name="auth_controller" placeholder="请输入控制器名称" type="text" class="dfinput controller" />
+                    <i>控制器名的每个单词首字母大写</i>
+                </li>
+                <li class="son_info">
+                    <label>方法名称</label>
+                    <input name="auth_action" placeholder="请输入方法名称" type="text" class="dfinput" />
+                    <i>方法名称的每个单词小写</i>
+                </li>
+                <li>
+                    <label>&nbsp;</label>
+                    <input name="" id="btnSubmit" type="submit" class="btn" value="确认保存" />
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+<script type="text/javascript">
+//jQuery代码
+$(function(){
+  // 页面加载时，判断当前下拉列表的值，以此控制权限的控制器和方法选项的是否需要显示
+  if( $('#auth_pid').val() != 0 ){
+    $('.son_info').show();
+  }else{
+    $('.son_info').hide();
+  }
+  // 点击下拉列表，控制权限的控制器和方法选项的显示和隐藏
+  $('#auth_pid').on('change', function(){
+    if( $(this).val() != 0 ){
+      $('.son_info').show();
+    }else{
+      $('.son_info').find('input').val('');
+      $('.son_info').hide();
+    }
+  });
+
+});
+</script>
+</html>

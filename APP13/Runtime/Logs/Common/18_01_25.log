@@ -1,0 +1,42 @@
+[ 2018-01-25T09:49:51+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-01-25T10:48:37+08:00 ] 127.0.0.1 /Uploads/$goods['goods_logo_thumb']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-01-25T10:48:37+08:00 ] 127.0.0.1 /Uploads/$goods['goods_logo_thumb']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-01-25T10:48:42+08:00 ] 127.0.0.1 /Uploads/$goods['goods_logo_thumb']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-01-25T10:48:48+08:00 ] 127.0.0.1 /Uploads/$goods['goods_logo_thumb']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-01-25T10:51:08+08:00 ] 127.0.0.1 /Uploads/$goods['goods_logo_thumb']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-01-25T10:51:08+08:00 ] 127.0.0.1 /Uploads/$goods['goods_logo_thumb']
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Uploads
+

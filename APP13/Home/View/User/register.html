@@ -1,0 +1,140 @@
+{__NOLAYOUT__}
+<layout name="user" />
+
+  <link rel="stylesheet" href=" __CSS__/login.css" type="text/css">
+  <style>
+    /* 原来的输入太长了，我们的短信验证码的框不需要那么长 */
+    .login_form .txt2{
+      width: 150px;
+    }
+    .sms_btn{
+      color: #fff;
+      background-color: #ff4444;
+      display: inline-block;
+      cursor: pointer;
+      height: 32px;
+      line-height: 32px;
+      font-size: 14px;
+      width: 140px;
+      text-align: center;
+    }
+    .disabled{
+      cursor: no-drop;
+      background-color: #ffaaaa;
+    }
+  </style>
+
+	<!-- 登录主体部分start -->
+	<div class="login w990 bc mt10 regist">
+		<div class="login_hd">
+			<h2>用户注册</h2>
+			<b></b>
+		</div>
+		<div class="login_bd">
+			<div class="login_form fl">
+				<form action="{:U('User/register')}" method="post">
+					<ul>
+						<li>
+              <label for="">用户名：</label>
+              <input type="text" class="txt" name="username" />
+              <p>3-20位字符，可由中文、字母、数字和下划线组成</p>
+            </li>
+            <li>
+							<label for="">昵称：</label>
+							<input type="text" class="txt" name="nickname" />
+							<p>可由中文、字母、数字和下划线组成</p>
+						</li>
+						<li>
+							<label for="">手机号：</label>
+							<input type="text" class="txt" name="phone" />
+							<p>请填写正确的手机号码</p>
+						</li>
+						<li>
+							<label for="">邮箱地址：</label>
+							<input type="text" class="txt" name="email" />
+							<p>请填写正确的邮箱地址，用于找回密码！</p>
+						</li>						
+						<li>
+							<label for="">密码：</label>
+							<input type="password" class="txt" name="password" />
+							<p>6-20位字符，可使用字母、数字和符号的组合，不建议使用纯数字、纯字母、纯符号</p>
+						</li>
+						<li>
+							<label for="">确认密码：</label>
+							<input type="password" class="txt" name="password2" />
+							<p> <span>请再次输入密码</p>
+						</li>
+						<li>
+							<label for="">验证码：</label>
+							<input type="text" class="txt txt2" name="sms_code" />
+							<span class="sms_btn">点击发送短信验证码</span>
+							<p> <span>发送短信验证码</p>
+						</li>						
+						<li>
+							<label for="">&nbsp;</label>
+							<input type="checkbox" name="is_read" value="1" class="chb" checked="checked" /> 我已阅读并同意《用户注册协议》
+						</li>
+						<li>
+							<label for="">&nbsp;</label>
+							<input type="submit" value="" class="login_btn" />
+						</li>
+					</ul>
+				</form>
+
+				
+			</div>
+			
+			<div class="mobile fl">
+				<h3>手机快速注册</h3>			
+				<p>中国大陆手机用户，编辑短信 “<strong>XX</strong>”发送到：</p>
+				<p><strong>1069099988</strong></p>
+			</div>
+
+		</div>
+	</div>
+	<!-- 登录主体部分end -->
+	<div style="clear:both;"></div>
+  
+	<script>
+		var t;          // 定时器的返回值
+		var timer = false; // 表示是否进入计时状态，true表示正在倒计时， false表示没进入倒计时了。		
+	  // 发送短信验证码
+		$('.sms_btn').click(function(){
+			 if( timer == true ){
+         return false;
+       }
+
+			 // 接收手机号码
+			 var mb = $('input[name=phone]').val();
+       if( mb.length < 11 ){
+          $('input[name=phone]').focus();
+          return false;
+       }
+
+       timer = true;  // 进入倒计时了
+       var _this = $(this); // 把当前被点击的按钮对象保存在变量中
+			 var time = 60;
+			 $('.sms_btn').addClass('disabled');   // 给按钮移除添加样式
+       $('.sms_btn').html(time+'秒');  // 倒计时的读秒
+			 clearInterval( t );
+			 t = setInterval(function(){
+			 	 if( time <= 1 ){
+			 	 	 $('.sms_btn').removeClass('disabled'); // 给按钮 .sms_btn 移除禁用样式
+			 	 	 _this.html( '点击发送短信验证码' );    // 把内容重新调整回来
+			 	 	 timer = false;  //倒计时结束了，退出计时状态
+			 	 	 clearInterval( t ); // 清除定时器
+			 	 }else{
+			 	 	 _this.html( --time + '秒' );   // 倒计时的读秒
+			 	 }
+			 },1000);
+
+			 //使用ajax发送手机号到后台
+       data={
+        'phone':mb,
+       };
+       $.post('{:U("User/sms")}',data,function(msg){
+        //提示用户发送短信是否成功
+        alert(msg.message);
+       },'json');
+		});
+	</script>

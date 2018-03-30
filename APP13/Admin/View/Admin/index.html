@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>管理员列表</title>
+    <link href="__CSS__/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__JS__/jquery.js"></script>
+</head>
+<body>
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="{:U('Index/index')}" target="_top">首页</a></li>
+            <li><a href="{:U('Admin/index')}">管理员管理</a></li>
+            <li>列表</li>
+        </ul>
+    </div>
+    <div class="rightinfo">
+        <div class="tools">
+            <ul class="toolbar">
+                <li><a href="{:U('Admin/add')}"><span><img src="__IMG__/t01.png" /></span>添加</a></li>
+                <li><span><img src="__IMG__/t02.png" /></span>修改</li>
+                <li><span><img src="__IMG__/t03.png" /></span>删除</li>
+                <li><span><img src="__IMG__/t04.png" /></span>统计</li>
+            </ul>
+        </div>
+        <table class="tablelist">
+            <thead>
+                <tr>
+                    <th>
+                        <input name="" type="checkbox" value="" id="checkAll" />
+                    </th>
+                    <th>ID</th>
+                    <th>登录帐号</th>
+                    <th>角色名称</th>
+                    <th>邮箱地址</th>
+                    <th>手机号码</th>
+                    <th>最后登录时间</th>
+                    <th>最后登录IP地址</th>
+                    <th>是否禁用</th>
+                    <th>创建时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <foreach name="adminList" item="admin">
+              <tr>
+                <td><input name="del[]" type="checkbox" value="" /></td>
+                <td>{$admin['admin_id']}</td>
+                <td>{$admin['username']}</td>
+                <td>{$admin['role_name']}</td>
+                <td>{$admin['mail']}</td>
+                <td>{$admin['phone']}</td>
+                <td>{$admin['login_time']|date='Y-m-d H:i:s',###}</td>
+                <td>{$admin['login_ip']}</td>
+                <td>{$admin['disabled_at']==0?'启用':'禁用'}</td>
+                <td>{$admin['created_at']|date='Y-m-d H:i:s',###}</td>
+                <td>
+                    <a href="{:U('Admin/edit',array('id'=>$admin['admin_id']))}" class="tablelink">编辑</a>
+                    <a href="{:U('Admin/del',array('id'=>$admin['admin_id']))}" class="tablelink">删除</a>
+                </td>
+              </tr>
+              </foreach>
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript">
+        $('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+</body>
+
+</html>

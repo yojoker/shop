@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<script type="text/javascript" src="calendar.js"></script>
+	<link rel="stylesheet" href="calendar.css">
+	<title>取自Ecshop的时间选择器</title>
+</head>
+<body>
+<input name="update" value="" type="text" id="update" style="width:250px" class="intxt"  />
+<script language="javascript" type="text/javascript">
+    Calendar.setup({
+        inputField     :    "update",             // input输入框的id值
+        ifFormat       :    "%Y-%m-%d %H:%M:%S",  // 时间显示的格式 分别代表 年-月-日 时:分:秒
+        showsTime      :    true,                 // 是否显示 时间输入框
+        timeFormat     :    "24"                  // 时间的显示进制 12小时制/24小时制
+    });
+</script>
+</body>
+</html>
+
+
+
+
